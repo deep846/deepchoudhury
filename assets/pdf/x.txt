@@ -1,0 +1,16 @@
+<div>
+                                    <h3 class="qualification__title">Secondary Schooling</h3>
+                                    <span class="qualification__subtitle">Bani Mandir Railway Higher Secondary School - WBBSE</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2017 - 2019
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Higher Secondary Schooling</h3>
+                                    <span class="qualification__subtitle">Bani Mandir Railway Higher Secondary School - WBCHSE</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2017 - 2019
+                                    </div>
+                                </div>
