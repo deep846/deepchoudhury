@@ -195,7 +195,7 @@ themeButton.addEventListener('click', () => {
 var x=false;
 function sendEmail(){
     Email.send({
-        SecureToken: '2abe491f-91df-4b18-8530-61c889a5bbe3',
+        SecureToken: 'f9b56b08-164b-4ecb-8ee3-b930250a2e6f',
         To : 'sanandachoudhury69@gmail.com',
         From : document.getElementById('contact__email').value,
         Subject : document.getElementById('contact__topic').value,
