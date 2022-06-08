@@ -207,12 +207,18 @@ function sendEmail(){
         // message =>alert("Message Sent Sucessfully. Status"+message),
         x= true,
     );
+
     if(x==true){
         swal({
             title: "SUCCESSFUL",
             text: "Your message was successfully sent!",
             icon: "success",
         });
+        //document.getElementById('contact__submit__form').submit();
+        document.getElementById('contact__email').value="";
+        document.getElementById('contact__topic').value="";
+        document.getElementById('contact__name').value="";
+        document.getElementById('contact__message').value="";
     }
     else{
         swal({

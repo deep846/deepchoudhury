@@ -902,7 +902,7 @@
                     </div>
                 </div>
             </div>
-            <form onsubmit="sendEmail(); reset(); return false;" class="contact__form grid">
+            <form onsubmit="sendEmail(); reset(); return false;" id="contact__submit__form" method="post" class="contact__form grid">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
                         <label class="contact__label">Name</label>
@@ -925,9 +925,9 @@
                     <!--                            <a type="submit" class="button button&#45;&#45;flex button__x">-->
                     <!--                                Send Message <i class="uil uil-message button__x-transition button__icon"></i>-->
                     <!--                            </a>-->
-                    <button type="submit" class="button button--flex button__x" onsubmit="swal()">
+                    <span onclick="sendEmail()" type="submit" class="button button--flex button__x" onsubmit="swal()">
                         Send Message <i class="uil uil-message button__x-transition button__icon"></i>
-                    </button>
+                    </span>
                 </div>
             </form>
             <div class="contact__modal">
